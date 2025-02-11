@@ -1,0 +1,80 @@
+.accordian_container{
+ margin: 5px;
+ user-select: none;
+}
+
+.main-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px gray;
+}
+.btn{
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+*{
+  font-family: Arial;
+  padding: 0;
+  margin: 0;
+}
+.box{
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+.question-container{
+  width: 80vh;
+  background-color: azure;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px gray;
+  padding: 20px;
+}
+.question-container h2{
+  text-align: center;
+  font-size: 26px;
+}
+/* .collapse{
+  background-color: black;
+  color: #5b3f3f;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  transition: 1s;
+} */
+.ans{
+  font-size: 17px;
+  margin: 3px;
+}
+.main-menu p{
+ font-size:20px;
+}
+
+.rotate{
+  transform:  rotate(180deg);
+}
+@media only screen and (min-width:1000px){
+  .question-container{
+    width: 40vw;
+  }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #111;
+  height: 100vh;
+  width: 100%;
+}
