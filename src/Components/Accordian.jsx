@@ -20,6 +20,7 @@ export default function Accordian(props) {
          {show && <div>
             <p className='ans'>{type.answer}</p>        
           </div>}
+          <p>hello</p>
     </div>
   )
 }
